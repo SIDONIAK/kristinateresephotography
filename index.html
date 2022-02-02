@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Kristina Terese Photography</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://use.typekit.net/mgv2lci.css">
+    <script src="https://kit.fontawesome.com/175e9e1262.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <!--header and nav-->
+    <header>
+      <div class="topnav">
+        <div class="topnav topnav__logo">
+          <a href="index.html"><img class="topnav--logo" src="images/KTP_Watermark.svg" alt="Kristina Terese Photography logo"></a>
+        </div>
+        <nav>
+          <ul class="topnav topnav__nav">
+            <li><a class="topnav-item" href="pages/family/family.html">Family</a></li>
+            <li><a class="topnav-item" href="pages/portrait/portrait.html">Portrait</a></li>
+            <li><a class="topnav-item" href="pages/newborn/newborn.html">Newborn</a></li>
+            <li><a class="topnav-item" href="pages/sports/sports.html">Sports</a></li>
+            <li><a class="topnav-item" href="pages/landscape/landscape.html">Landscape</a></li>
+            <li><a class="topnav-item" href="pages/travel/travel.html">Travel</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!--feature photo-->
+    <section>
+      <img src="images/feature.jpg" alt="feature image">
+    </section>
+
+        <!--about blurb-->
+        <section class="about">
+          <h2 class="aboutme__title">About Me</h2>
+          <div class="aboutme">
+            <img class="aboutme__image" src="images/aboutme.png" alt="Kristina posing in sand dunes">
+            <p class="aboutme__copy">
+              Hi, I’m Kristina, the face behind Kristina Terese Photography. Two of my greatest passions are traveling and photographing. I've been doing both since a young age and my love for them both only keeps growing. I started out my photography career thinking I wanted to do travel photography, but since dabbling in all sorts of other photography, I've realized my favorite subject is people - whether it’s a family session, a portrait, or even a sporting competition, I love capturing the little moments that people will cherish forever.
+            </p>
+          </div>
+        </section>
+
+      <!--gallery list-->
+    <section class="gallery">
+      <h2 class="gallery__title--main">Galleries</h2>
+      <div class="galleries">
+
+        <article class="gallery__item">
+          <a class="gallery__link" href="pages/family/family.html">
+            <img class="gallery__img" src="images/family.jpg" alt="family photo">
+            <h3 class="gallery__title">Family</h3>
+          </a>
+        </article>
+
+        <article class="gallery__item">
+          <a class="gallery__link" href="pages/portrait/portrait.html">
+            <img class="gallery__img" src="images/portrait.jpg" alt="portrait photo">
+            <h3 class="gallery__title">Portrait</h3>
+          </a>
+        </article>
+
+        <article class="gallery__item">
+          <a class="gallery__link" href="pages/newborn/newborn.html">
+            <img class="gallery__img" src="images/newborn.jpg" alt="newborn photo">
+            <h3 class="gallery__title">Newborn</h3>
+          </a>
+        </article>
+
+        <article class="gallery__item">
+          <a class="gallery__link" href="pages/sports/sports.html">
+            <img class="gallery__img" src="images/sports.jpg" alt="sports photo">
+            <h3 class="gallery__title">Sports</h3>
+          </a>
+        </article>
+
+        <article class="gallery__item">
+          <a class="gallery__link" href="pages/landscape/landscape.html">
+            <img class="gallery__img" src="images/landscape.jpg" alt="landscape photo">
+            <h3 class="gallery__title">Landscape</h3>
+          </a>
+        </article>
+
+        <article class="gallery__item">
+          <a class="gallery__link" href="pages/travel/travel.html">
+            <img class="gallery__img" src="images/travel.jpg" alt="travel photo">
+            <h3 class="gallery__title">Travel</h3>
+          </a>
+        </article>
+
+      </div>
+    </section>
+
+    <!--get in touch-->
+    <section class="getintouch">
+      <h2 class="contact__title">Get in Touch</h2>
+      <div class="contact">
+        <div class="contact__text">
+          <p class="contact__copy">
+          Interested in booking a photoshoot session? Fill out the form below and I will get in touch with you ASAP!
+          </p>
+          <form action="#" method="post" class="getintouch--form">
+            <p>
+              <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="name" required><br>
+              <label for="email">Email:</label>
+                <input type="text" id="email" name="email" placeholder="email@gmail.com" required><br>
+              <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" placeholder="555-555-5555" required><br>
+              <textarea name="comments" placeholder="Additional notes..."></textarea>
+            </p>
+            <p><input type="submit" value="Submit"></p>
+
+          </form>
+
+        </div>
+        <img class="contact__image" src="images/contact.png" alt="Kristina taking a photo">
+      </div>
+    </section>
+
+    <!--footer-->
+    <footer class="footer">
+      <p>&#169; 2012 Kristina Terese Photography
+      </p>
+      <ul class="footer">
+        <li class="footer__item">kristinateresephotography@gmail.com</li>
+        <li><a class="footer__item" href="https://www.facebook.com/KristinaTeresePhotography"><i class="fab fa-facebook"></i></a></li>
+        <li><a class="footer__item" href="https://www.instagram.com/kristinateresephotography/"><i class="fab fa-instagram"></i></a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
